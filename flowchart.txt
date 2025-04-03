@@ -1,0 +1,57 @@
+1. Importing the packages
+2. Exploring the dataset 
+	-  Parkinson Disease
+3. Image processing
+	- using ImageDataGenerator 
+		- Re-scaling the Image
+		- Shear Transformation
+		- Zooming the Image
+		- Horizontal Flip 
+		- Reshaping the Image 
+	- Feature Extraction 
+		- Reading the image
+		- Resizing the image
+		- Convert the Color
+		- Appending the image and labels
+		- Conversion to numpy value
+		- Label Encoding 
+	
+4. Building the model 
+    ResNet50
+    VGG19
+    InceptionV3
+    ResNet50 + VGG19 + InceptionV3
+        KNN
+        Improved KNN
+        RF
+        SVM
+        Decision Tree
+        Voting Classifier
+    Xception 
+        KNN
+        Improved KNN
+        RF
+        SVM
+        Decision Tree
+        Voting Classifier
+5. Training the model
+6. Building the model 
+
+Flask Framework
+----------------
+ 
+7. Flask Framework with Sqlite for signup and signin
+8. Importing the packages
+9. User Upload an image for analysis
+10. The given input is preprocessed 
+11. The trained model is used for predicting the result
+12. Final Outcome is display 
+
+  
+
+Extension
+----------
+In the base paper, the author mentioned to use different models for analysis the Parkinson Disease, with different Deep Learning model and from which proposed ResNet50 + VGG19 + InceptionV3 model Feature extracted model with KNN got 95% accuracy 
+As an extension we applied an ensemble method  combining the predictions of multiple individual models to produce a more robust and accurate final prediction. 
+However, we can further enhance the performance by exploring other ensemble techniques such as Voting Classifier in Xception based FE and Voting Classifier in Proposed model based FE  on  models, from which Xception got 100% of accuracy,
+As an extension we can build the front end using the flask framework for user testing and with user authentication.
